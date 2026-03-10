@@ -2,18 +2,18 @@
 
 **Project Duration:** July 2018 - August 2018
 
-A smart mobility aid designed to assist visually impaired individuals with obstacle detection and voice alerts. This Arduino-based device uses ultrasonic sensors to detect obstacles and provides real-time feedback through buzzer alerts and voice prompts.
+A smart mobility aid for visually impaired individuals with obstacle detection and voice alerts. This Arduino-based device uses ultrasonic sensors to detect obstacles and provides real-time feedback through buzzer alerts and voice prompts.
 
 ## Overview
 
-The Smart Blind Stick is an assistive technology prototype that enhances traditional white canes with electronic obstacle detection capabilities. It uses an HC-SR04 ultrasonic sensor to measure distances and alerts users when obstacles are detected within a configurable range.
+The Smart Blind Stick adds electronic obstacle detection to traditional white canes. It uses an HC-SR04 ultrasonic sensor to measure distances and alerts users when obstacles are detected within a configurable range.
 
 ## Features
 
 - **Obstacle Detection**: Uses HC-SR04 ultrasonic sensor for real-time distance measurement
 - **Multi-Modal Alerts**: 
   - Buzzer for audio feedback
-  - Voice prompts for enhanced user guidance
+  - Voice prompts for user guidance
 - **Arduino-Based**: Simple, cost-effective microcontroller platform
 - **Real-Time Processing**: Immediate feedback for collision avoidance
 
@@ -25,7 +25,7 @@ The Smart Blind Stick is an assistive technology prototype that enhances traditi
 
 ## Important Limitations
 
-⚠️ **This is a basic prototype, not a real assistive device yet.**
+This is a basic prototype, not a real assistive device yet.
 
 ### Known Limitations:
 
@@ -38,7 +38,7 @@ The Smart Blind Stick is an assistive technology prototype that enhances traditi
 
 ## Future Improvements
 
-To make this a production-ready assistive device, the following improvements would be necessary:
+To make this production-ready, the following improvements would be necessary:
 
 - Multi-directional sensing (forward, downward, side detection)
 - Non-blocking audio feedback using interrupts or RTOS
